@@ -27,8 +27,8 @@ This project formulates MI decoding as a **binary classification problem**:
 * **Subjects:** 5
 * **Paradigm:** Cue-based motor imagery
 * **Recording modality:** EEG
-* **Sampling rate:** 100 Hz
 * **Channels:** 118 (arranged according to the international 10-20 system)
+* **Sampling rate:** 100 Hz
   
 Raw EEG data and labels are not included in this repository. Official dataset descriptions and labels are available at:
 

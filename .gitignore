@@ -1,0 +1,43 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Serialized objects / models
+*.pkl
+*.joblib
+
+# Temporary data
+*.npy
+*.npz
+
+# MNE cache
+.mne/
+
+# Colab-specific files
+content/
+*.zip
+
+# IDE settings
+.vscode/
+.idea/
+
+# Ignore raw data directories (if accidentally created)
+data/raw/
+data/interim/

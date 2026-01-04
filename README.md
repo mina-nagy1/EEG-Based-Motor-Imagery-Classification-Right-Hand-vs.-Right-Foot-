@@ -1,4 +1,4 @@
-# EEG-Based-Motor-Imagery-Classification-Right-Hand-vs.-Right-Foot-
+# EEG-Motor-Imagery-RH-vs-RF
 This project implements **EEG-based motor imagery classifiers** to distinguish between **right-hand and right-foot** motor imagery tasks using the **BCI Competition III Dataset IVa**. The implementation explores two complementary methodologies:
 
 * **Subject-Specific Modeling:** Independent pipelines using **Common Spatial Patterns (CSP)** and **Linear Discriminant Analysis (LDA)** for five individual participants.

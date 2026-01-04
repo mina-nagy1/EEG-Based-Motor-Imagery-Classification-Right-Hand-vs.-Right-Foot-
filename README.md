@@ -92,8 +92,8 @@ Model performance is assessed using:
 * **Training accuracy**
 * **Test accuracy**
 * **Cross-validation accuracy**
-* **Generalization gap** (train vs test)
-
+* **Confsuion matrix**
+* * **Classification report** (Precision, Recall, and F1-score)
 This enables transparent analysis of:
 * **Overfitting behavior**
 * **Subject-specific vs cross-subject robustness**

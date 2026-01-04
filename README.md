@@ -1,7 +1,13 @@
 # EEG-Based-Motor-Imagery-Classification-Right-Hand-vs.-Right-Foot-
-Developed EEG-based motor imagery classifiers for right hand vs. right foot imagery using BCI Competition III Dataset IVa, applying CSP + LDA for five subject-specific models (trained independently) and FBCSP + LDA for cross-subject classification using combined data from all subjects.
-The work covers both **subject-specific modeling** and **cross-subject learning**, applying classical and **filter-bank spatial filtering** techniques combined with linear classification.
+This project implements **EEG-based motor imagery classifiers** to distinguish between **right-hand and right-foot** tasks using the **BCI Competition III Dataset IVa**. The implementation explores two primary methodologies:
 
+* **Subject-Specific Modeling:** Independent pipelines using **Common Spatial Patterns (CSP)** and **LDA** for five participants.
+
+* **Cross-Subject Learning:** A unified approach leveraging **Filter Bank CSP (FBCSP)** to address inter-subject variability.
+
+
+
+By comparing classical and **filter-bank spatial filtering** techniques, this work demonstrates how frequency-specific features enhance classification robustness in both individual and pooled datasets.
 ## Problem Overview
 
 **Motor imagery (MI)** brain–computer interfaces rely on detecting task-specific modulations in **sensorimotor EEG rhythms**. These modulations typically occur in the **mu (8–13 Hz)** and **beta (13–30 Hz)** bands over motor cortex regions.

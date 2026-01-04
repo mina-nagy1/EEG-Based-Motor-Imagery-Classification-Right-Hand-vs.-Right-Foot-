@@ -2,10 +2,7 @@
 This project implements **EEG-based motor imagery classifiers** to distinguish between **right-hand and right-foot** tasks using the **BCI Competition III Dataset IVa**. The implementation explores two primary methodologies:
 
 * **Subject-Specific Modeling:** Independent pipelines using **Common Spatial Patterns (CSP)** and **LDA** for five participants.
-
 * **Cross-Subject Learning:** A unified approach leveraging **Filter Bank CSP (FBCSP)** to address inter-subject variability.
-
-
 
 By comparing classical and **filter-bank spatial filtering** techniques, this work demonstrates how frequency-specific features enhance classification robustness in both individual and pooled datasets.
 ## Problem Overview

@@ -12,12 +12,6 @@ Motor imagery elicits **Event-Related Desynchronization (ERD)** in sensorimotor 
 
 These spatial patterns form the physiological basis for CSP-based feature extraction.
 
-![ERD Patterns](https://i.imgur.com/placeholder.png) *Example: ERD patterns during hand vs foot motor imagery*
-
-* **Subject-Specific Modeling:** Independent pipelines using **Common Spatial Patterns (CSP)** and **LDA** for five participants.
-* **Cross-Subject Learning:** A unified approach leveraging **Filter Bank CSP (FBCSP)** to address inter-subject variability.
-
-By comparing classical and **filter-bank spatial filtering** techniques, this work demonstrates how frequency-specific features enhance classification robustness in both individual and pooled datasets.
 ## Problem Overview
 
 **Motor imagery (MI)** brain–computer interfaces rely on detecting task-specific modulations in **sensorimotor EEG rhythms**. These modulations typically occur in the **mu (8–13 Hz)** and **beta (13–30 Hz)** bands over motor cortex regions.

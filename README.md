@@ -1,5 +1,18 @@
 # EEG-Based-Motor-Imagery-Classification-Right-Hand-vs.-Right-Foot-
-This project implements **EEG-based motor imagery classifiers** to distinguish between **right-hand and right-foot** tasks using the **BCI Competition III Dataset IVa**. The implementation explores two primary methodologies:
+This project implements **EEG-based motor imagery classifiers** to distinguish between **right-hand and right-foot** motor imagery tasks using the **BCI Competition III Dataset IVa**. The implementation explores two complementary methodologies:
+
+* **Subject-Specific Modeling:** Independent pipelines using **Common Spatial Patterns (CSP)** and **Linear Discriminant Analysis (LDA)** for five individual participants.
+* **Cross-Subject Learning:** A unified approach leveraging **Filter Bank CSP (FBCSP)** to address inter-subject variability and enable generalized classification.
+
+## Neurophysiological Background
+
+Motor imagery elicits **Event-Related Desynchronization (ERD)** in sensorimotor rhythms:
+* **Right hand imagery:** Strongest ERD in **contralateral left hemisphere** (C3 electrode)
+* **Right foot imagery:** Strongest ERD in **midline central region** (Cz electrode)
+
+These spatial patterns form the physiological basis for CSP-based feature extraction.
+
+![ERD Patterns](https://i.imgur.com/placeholder.png) *Example: ERD patterns during hand vs foot motor imagery*
 
 * **Subject-Specific Modeling:** Independent pipelines using **Common Spatial Patterns (CSP)** and **LDA** for five participants.
 * **Cross-Subject Learning:** A unified approach leveraging **Filter Bank CSP (FBCSP)** to address inter-subject variability.

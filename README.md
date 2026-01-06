@@ -95,7 +95,6 @@ Model performance is assessed using:
 * **Cross-validation accuracy**
 * **Confsuion matrix**
 * * **Classification report** (Precision, Recall, and F1-score)
-This enables transparent analysis of:
 * **Overfitting behavior**
 * **Subject-specific vs cross-subject robustness**
 * **Feature representation effectiveness**
